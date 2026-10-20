@@ -11,7 +11,7 @@
 	"version": "v1.2.0",
 	"developer": "caca",
 	"description": "Sodium-class rendering for Geometry Dash: forced low detail mode, no glow, no particle or shader effects, frozen object animations and batched/culled level sprites.",
-	"tags": ["performance", "optimization"],
+	"tags": ["performance", "utility"],
 	"settings": {
 		"enabled": {
 			"type": "bool",
