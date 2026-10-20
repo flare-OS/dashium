@@ -1,0 +1,79 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "caca.dashium",
+	"name": "Dashium",
+	"version": "v1.2.0",
+	"developer": "caca",
+	"description": "Sodium-class rendering for Geometry Dash: forced low detail mode, no glow, no particle or shader effects, frozen object animations and batched/culled level sprites.",
+	"tags": ["performance", "optimization"],
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"default": true,
+			"name": "Enable batching",
+			"description": "Collapse level object sprites into as few draw calls as the texture order allows."
+		},
+		"cull-offscreen": {
+			"type": "bool",
+			"default": true,
+			"name": "Cull off-screen quads",
+			"description": "Reject quads whose baked vertices fall completely outside the viewport."
+		},
+		"show-hud": {
+			"type": "bool",
+			"default": true,
+			"name": "Show stats overlay",
+			"description": "Display quads, draw calls, batch ratio and culled object count in the top-left corner."
+		},
+		"force-ldm": {
+			"type": "bool",
+			"default": true,
+			"name": "Force Low Detail Mode",
+			"description": "Skip decorative 'high detail' objects when a level is loaded. This is the biggest single win in object-heavy levels; turn it off if you want the level to look exactly as authored."
+		},
+		"no-glow": {
+			"type": "bool",
+			"default": true,
+			"name": "Disable object glow",
+			"description": "Skip the huge additive glow quads drawn behind glowing objects. Removes most of the fill-rate cost of glow-heavy levels."
+		},
+		"orb-effects": {
+			"type": "bool",
+			"default": true,
+			"name": "Disable orb effects & pulse",
+			"description": "Skip the ring/orb activation burst and stop the looping pulse animation on orbs and rings."
+		},
+		"object-animations": {
+			"type": "bool",
+			"default": false,
+			"name": "Disable object animations",
+			"description": "Freeze the looping frame/scale animations on level objects (decorative sprites, pulsing objects, ...). Trigger effects still play; this only removes constant background animation."
+		},
+		"effect-layers": {
+			"type": "bool",
+			"default": true,
+			"name": "Disable particle effects",
+			"description": "Hide particle systems inside the gameplay layer (fire, spawn bursts, ambient effects). Big win in effect-heavy levels. The player's own trail is kept."
+		},
+		"shader-effects": {
+			"type": "bool",
+			"default": true,
+			"name": "Disable level shader effects",
+			"description": "Stop the level's shader objects (shock waves, glitch, lens, blur, ...) from updating. These screen-wide effects are the most expensive thing in 3D-style levels."
+		},
+		"max-quads": {
+			"type": "int",
+			"default": 8192,
+			"min": 512,
+			"max": 65536,
+			"name": "Quads per batch",
+			"description": "Upper bound on how many quads are buffered before a forced flush. Higher means fewer draw calls and more memory traffic."
+		}
+	}
+}
