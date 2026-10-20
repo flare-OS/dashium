@@ -1,0 +1,62 @@
+Copyright © 2026 Luna (Also known as Soso). All rights reserved.
+
+1. Permission and Restrictions
+Unless explicitly authorized in writing by the copyright owner:
+
+You may view and study this source for personal, non-commercial purposes.
+
+You may not sell, sublicense, or commercially exploit this source or substantial portions of it.
+
+You may not redistribute modified or unmodified copies of this source without permission from the copyright owner.
+
+You may not claim this source, its original code, or its original assets as your own creation.
+
+You may not use this source to create, distribute, or facilitate malware, unauthorized surveillance, or other malicious activities.
+
+You may not use this source to falsely imply endorsement, affiliation, or approval by the copyright owner.
+
+Written permission must explicitly identify which otherwise restricted activities are authorized. Permission to use the source does not automatically grant permission to sell it or generate revenue from it.
+
+2. Inspiration and Independent Projects
+You may take inspiration from the general ideas, concepts, techniques, and functionality of this project.
+
+Creating an independent implementation inspired by this project is permitted, provided you do not improperly copy protected source code, assets, or other copyrighted material.
+
+This license does not claim exclusive ownership of general ideas, concepts, or techniques.
+
+3. AI-Assisted Development and Attribution
+
+The copyright owner acknowledges that AI tools were used in the development of this project.
+
+The project was developed using the owner's ideas, instructions, review, and refinement, with AI assistance.
+
+The project was inspired in part by the Sodium Minecraft optimization mod, with its functionality adapted toward a Geometry Dash-related project.
+
+The owner also acknowledges inspiration from Bismuth, a project available through Geode.
+
+These acknowledgements do not imply affiliation with, endorsement by, or ownership of Sodium, Bismuth, Minecraft, Geometry Dash, Geode, or their respective owners.
+
+Third-party rights and licenses remain applicable to any third-party material included in this project.
+
+4. Misrepresentation and False Claims
+You may not falsely claim authorship of this project's original material or deliberately misrepresent the project's features, performance, capabilities, or endorsements.
+
+You may not knowingly fabricate reviews, endorsements, benchmarks, or other claims intended to mislead users about this project.
+
+The copyright owner reserves the right to revoke permissions granted under this license where permitted by applicable law if these conditions are materially violated.
+
+5. Enforcement and Applicable Law
+Unauthorized use may result in termination of permission to use the affected material and other remedies available under applicable law.
+
+Nothing in this license grants rights beyond those expressly stated.
+
+6. No Warranty
+This source is provided "AS IS", without warranties of any kind, to the extent permitted by applicable law.
+
+The copyright owner is not responsible for unauthorized modifications or third-party uses of this source.
+
+7. Contact and Exceptions
+For permissions, exceptions, or licensing questions, contact: nitogx21@gmail.com.
+
+License version: 1.0
+Last updated: October 20, 2026
